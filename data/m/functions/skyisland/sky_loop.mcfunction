@@ -2,6 +2,17 @@ scoreboard players add $game m_sky_timer 1
 
 
 #timings
+
+execute if score $game m_sky_running matches 1 if score $game m_sky_timer matches 10 run fill -10006 32 -9986 -10006 34 -9986 minecraft:barrier
+execute if score $game m_sky_running matches 1 if score $game m_sky_timer matches 10 run fill -10005 34 -9985 -10005 32 -9985 minecraft:barrier
+execute if score $game m_sky_running matches 1 if score $game m_sky_timer matches 10 run fill -10003 34 -9983 -10003 32 -9983 minecraft:barrier
+execute if score $game m_sky_running matches 1 if score $game m_sky_timer matches 10 run fill -10002 34 -9982 -10002 32 -9982 minecraft:barrier
+execute if score $game m_sky_running matches 1 if score $game m_sky_timer matches 10 run fill -10008 32 -9988 -10008 36 -9988 minecraft:barrier
+execute if score $game m_sky_running matches 1 if score $game m_sky_timer matches 10 run fill -10009 36 -9989 -10009 32 -9989 minecraft:barrier
+
+
+
+
 execute if score $game m_sky_running matches 1 if score $game m_sky_timer matches 200 run tellraw @a ["",{"text":"[","bold":true,"color":"gold"},{"text":"!","bold":true,"color":"yellow"},{"text":"]","bold":true,"color":"gold"},{"text":" Game starts in 10 seconds!","bold":true,"color":"green"}]
 
 execute if score $game m_sky_running matches 1 if score $game m_sky_timer matches 300 run tellraw @a ["",{"text":"[","bold":true,"color":"gold"},{"text":"!","bold":true,"color":"yellow"},{"text":"]","bold":true,"color":"gold"},{"text":" Game starts in 5 seconds!","bold":true,"color":"green"}]
@@ -22,7 +33,7 @@ execute if score $game m_sky_running matches 1 if score $game m_sky_timer matche
 execute if score $game m_sky_running matches 1 if score $game m_sky_timer matches 400 run fill -10009 36 -9989 -10002 32 -9982 air replace minecraft:barrier
 
 
-execute if score $game m_sky_running matches 1 if score $game m_sky_timer matches 400.. unless entity @e[tag=m_sky_end] run function m:skyisland/actionbar_timer
+execute if score $game m_sky_running matches 1 if score $game m_sky_timer matches 400.. run function m:skyisland/actionbar_timer
 
 
 
