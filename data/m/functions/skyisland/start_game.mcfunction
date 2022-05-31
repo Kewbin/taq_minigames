@@ -20,7 +20,7 @@ scoreboard players operation $game m_sky_1st_points *= $game m_p_multiplier
 
 
 scoreboard players set $game m_sky_minutex0 1
-scoreboard players set $game m_sky_minute0x 0
+scoreboard players set $game m_sky_minute0x 5
 scoreboard players set $game m_sky_secondx0 0
 scoreboard players set $game m_sky_second0x 0
 

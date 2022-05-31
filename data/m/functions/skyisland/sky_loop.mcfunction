@@ -43,7 +43,7 @@ execute if score $game m_sky_minutex0 matches 0 if score $game m_sky_minute0x ma
 
 execute if score $game m_sky_minutex0 matches 0 if score $game m_sky_minute0x matches 0 if score $game m_sky_secondx0 matches 0 if score $game m_sky_second0x matches 1 if score $game m_sky_tick matches 1 run tellraw @a {"text":"This world will restart in 1 seconds.","color":"red"}
 
-execute if score $game m_sky_minutex0 matches 0 if score $game m_sky_minute0x matches 0 if score $game m_sky_secondx0 matches 0 if score $game m_sky_second0x matches 0 if score $game m_sky_tick matches 1 run function m:skyisland/end_game
+execute if score $game m_sky_minutex0 matches 0 if score $game m_sky_minute0x matches 0 if score $game m_sky_secondx0 matches 0 if score $game m_sky_second0x matches 1 if score $game m_sky_tick matches 1 run function m:skyisland/end_game
 
 
 
