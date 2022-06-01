@@ -1,5 +1,7 @@
 scoreboard objectives add m_event_running dummy
 
+scoreboard objectives add m_click_detect used:carrot_on_a_stick
+
 scoreboard objectives add m_maxScore dummy
 scoreboard objectives add m_hidden_score dummy
 
@@ -41,3 +43,13 @@ scoreboard objectives add m_sky_minutex0 dummy
 scoreboard objectives add m_sky_second0x dummy
 scoreboard objectives add m_sky_secondx0 dummy
 scoreboard objectives add m_sky_tick dummy
+
+#soup 
+scoreboard objectives add m_soup_timer dummy
+scoreboard objectives add m_soup_s_points dummy
+scoreboard objectives add m_soup_k_points dummy
+scoreboard objectives add m_soup_round dummy
+scoreboard objectives add m_soup_random dummy
+scoreboard objectives add m_soup_death killed_by:player
+scoreboard objectives add m_soup_kill playerKillCount
+scoreboard objectives add m_soup_alive dummy

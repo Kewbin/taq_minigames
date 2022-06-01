@@ -2,6 +2,7 @@ tellraw @a ["",{"text":"[","color":"gold"},{"text":"!","color":"yellow"},{"text"
 
 kill @e[tag=m_selector]
 
+effect clear @a[tag=m_player]
 
 scoreboard players set $game m_event_running 0
 scoreboard players set $game m_nextgame 0
@@ -19,7 +20,9 @@ scoreboard players set $game m_soup_running 0
 
 scoreboard objectives setdisplay sidebar
 
+tag @a remove m_aura_dead
 tag @a remove m_player
+tag @a remove m_soup_dead
 
 tag @a remove m_sky_chest0_t1
 tag @a remove m_sky_chest1_t1
