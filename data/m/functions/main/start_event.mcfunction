@@ -6,6 +6,8 @@ title @a times 20 100 20
 title @a subtitle {"text":"To TAq Minigames!","bold":true,"color":"green"}
 title @a title [{"text":"Welcome","bold":true,"color":"dark_green"}]
 
+scoreboard players set $game m_p_multiplier 10
+
 tag @a[gamemode=adventure] add m_player
 
 scoreboard objectives setdisplay sidebar m_display_score

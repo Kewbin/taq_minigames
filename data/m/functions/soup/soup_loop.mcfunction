@@ -33,7 +33,7 @@ execute if score $game m_soup_running matches 1 if score $game m_soup_timer matc
 
 
 
-execute if score $game m_soup_running matches 1 if score $game m_soup_timer matches 400.. as @a[scores={m_soup_death=1..}] run function m:soup/death_event
+execute if score $game m_soup_running matches 1 if score $game m_soup_timer matches 400.. as @a[scores={m_soup_death=1..}] run schedule function m:soup/death_event 10t
 execute if score $game m_soup_running matches 1 if score $game m_soup_timer matches 400.. as @a[scores={m_soup_kill=1..}] run function m:soup/kill_event
 
 
