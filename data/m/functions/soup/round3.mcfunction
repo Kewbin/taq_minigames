@@ -2,7 +2,7 @@ scoreboard players set $game m_soup_round 3
 
 clear @a[tag=m_player]
 
-tp @a 6975 4 7009
+tp @a[nbt={Dimension:"minecraft:minigames"}] 6975 4 7009
 
 tag @a remove m_soup_dead
 gamemode adventure @a[tag=m_player]

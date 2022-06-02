@@ -1,14 +1,14 @@
-gamemode adventure @a[gamemode=survival]
-effect give @a[gamemode=adventure] resistance 100000 255 true
+gamemode adventure @a[gamemode=survival,nbt={Dimension:"minecraft:minigames"}]
+effect give @a[gamemode=adventure,nbt={Dimension:"minecraft:minigames"}] resistance 100000 255 true
 
 
-title @a times 20 100 20
-title @a subtitle {"text":"To TAq Minigames!","bold":true,"color":"green"}
-title @a title [{"text":"Welcome","bold":true,"color":"dark_green"}]
+title @a[nbt={Dimension:"minecraft:minigames"}] times 20 100 20
+title @a[nbt={Dimension:"minecraft:minigames"}] subtitle {"text":"To TAq Minigames!","bold":true,"color":"green"}
+title @a[nbt={Dimension:"minecraft:minigames"}] title [{"text":"Welcome","bold":true,"color":"dark_green"}]
 
 scoreboard players set $game m_p_multiplier 10
 
-tag @a[gamemode=adventure] add m_player
+tag @a[gamemode=adventure,nbt={Dimension:"minecraft:minigames"}] add m_player
 
 scoreboard objectives setdisplay sidebar m_display_score
 

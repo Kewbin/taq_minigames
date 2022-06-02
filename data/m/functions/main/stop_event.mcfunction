@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"[","color":"gold"},{"text":"!","color":"yellow"},{"text":"]","color":"gold"},{"text":" The event was stopped manually!","color":"dark_red"}]
+tellraw @a[nbt={Dimension:"minecraft:minigames"}] ["",{"text":"[","color":"gold"},{"text":"!","color":"yellow"},{"text":"]","color":"gold"},{"text":" The event was stopped manually!","color":"dark_red"}]
 
 kill @e[tag=m_selector]
 

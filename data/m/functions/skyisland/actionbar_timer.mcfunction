@@ -1,4 +1,4 @@
-title @a actionbar ["",{"score":{"name":"$game","objective":"m_sky_minutex0"},"color":"green"},{"score":{"name":"$game","objective":"m_sky_minute0x"},"color":"green"},{"text":":","color":"green"},{"score":{"name":"$game","objective":"m_sky_secondx0"},"color":"green"},{"score":{"name":"$game","objective":"m_sky_second0x"},"color":"green"}]
+title @a[nbt={Dimension:"minecraft:minigames"}] actionbar ["",{"score":{"name":"$game","objective":"m_sky_minutex0"},"color":"green"},{"score":{"name":"$game","objective":"m_sky_minute0x"},"color":"green"},{"text":":","color":"green"},{"score":{"name":"$game","objective":"m_sky_secondx0"},"color":"green"},{"score":{"name":"$game","objective":"m_sky_second0x"},"color":"green"}]
 
 execute if score $game m_sky_tick matches 20.. run scoreboard players remove $game m_sky_second0x 1
 execute if score $game m_sky_tick matches 20.. if score $game m_sky_second0x matches -1 run scoreboard players remove $game m_sky_secondx0 1

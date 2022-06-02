@@ -1,0 +1,1 @@
+give @s cat_spawn_egg{display:{Name:'{"text":"Breakable Block","color":"aqua","bold":true,"italic":false}'},EntityTag:{id:"minecraft:area_effect_cloud",Duration:100,Tags:["m_tool_block"]}} 1

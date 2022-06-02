@@ -1,7 +1,7 @@
-tp @a -9976 67 -9928
+tp @a[nbt={Dimension:"minecraft:minigames"}] -9976 67 -9928
 gamemode adventure @a[tag=m_player]
-tellraw @a {"text":"Restarting...","color":"red"}
-tellraw @a ["",{"text":"[","bold":true,"color":"gold"},{"text":"!","bold":true,"color":"yellow"},{"text":"]","bold":true,"color":"gold"},{"text":" You can not continue lootrunning due to the world restarting","color":"yellow"},{"text":" [","bold":true,"color":"gold"},{"text":"!","bold":true,"color":"yellow"},{"text":"]","bold":true,"color":"gold"}]
+tellraw @a[nbt={Dimension:"minecraft:minigames"}] {"text":"Restarting...","color":"red"}
+tellraw @a[nbt={Dimension:"minecraft:minigames"}] ["",{"text":"[","bold":true,"color":"gold"},{"text":"!","bold":true,"color":"yellow"},{"text":"]","bold":true,"color":"gold"},{"text":" You can not continue lootrunning due to the world restarting","color":"yellow"},{"text":" [","bold":true,"color":"gold"},{"text":"!","bold":true,"color":"yellow"},{"text":"]","bold":true,"color":"gold"}]
 
 tag @a remove m_sky_chest0_t1
 tag @a remove m_sky_chest1_t1

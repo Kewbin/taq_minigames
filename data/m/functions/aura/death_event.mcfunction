@@ -2,7 +2,7 @@ tag @s add m_aura_dead
 
 tellraw @s ["",{"text":"You have died... ","bold":true,"color":"dark_red"},{"text":"\n"},{"text":"2 soul points have been lost...","color":"gray"}]
 
-tellraw @a ["",{"selector":"@s","color":"gold"},{"text":" skill issued!","color":"gold"}]
+tellraw @a[nbt={Dimension:"minecraft:minigames"}] ["",{"selector":"@s","color":"gold"},{"text":" skill issued!","color":"gold"}]
 
 gamemode spectator @s
 
