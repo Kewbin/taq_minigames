@@ -3,7 +3,7 @@ scoreboard players set $game m_soup_round 2
 clear @a[tag=m_player]
 
 
-tellraw @a ["",{"text":"[","bold":true,"color":"gold"},{"text":"!","bold":true,"color":"yellow"},{"text":"]","bold":true,"color":"gold"},{"text":" The mushrooms are emitting strange spores... ","color":"yellow"},{"text":"[","bold":true,"color":"gold"},{"text":"!","bold":true,"color":"yellow"},{"text":"]","bold":true,"color":"gold"}]
+tellraw @a[nbt={Dimension:"minecraft:minigames"}] ["",{"text":"[","bold":true,"color":"gold"},{"text":"!","bold":true,"color":"yellow"},{"text":"]","bold":true,"color":"gold"},{"text":" The mushrooms are emitting strange spores... ","color":"yellow"},{"text":"[","bold":true,"color":"gold"},{"text":"!","bold":true,"color":"yellow"},{"text":"]","bold":true,"color":"gold"}]
 
 
 tp @a[nbt={Dimension:"minecraft:minigames"}] 7129 36 6521
