@@ -12,4 +12,4 @@ execute if score $game m_soup_random matches 5 run effect give @s slow_falling 1
 execute if score $game m_soup_random matches 6 run effect give @s invisibility 10 0 true
 execute if score $game m_soup_random matches 7 run effect give @s mining_fatigue 8 2 true
 execute if score $game m_soup_random matches 8 run effect give @s slowness 10 2 true
-execute if score $game m_soup_random matches 9 run effect give @s speed 10 1 true
+execute if score $game m_soup_random matches 9 run effect give @s speed 10 9 true

@@ -13,6 +13,8 @@ gamemode adventure @a[tag=m_player]
 effect clear @a[tag=m_player]
 effect give @a[tag=m_player] resistance 100000 255 true
 effect give @a[tag=m_player] jump_boost 100000 2 true
+effect give @a[tag=m_player] instant_health 1 255 true
+
 
 effect give @a[tag=m_player] nausea 7 10 true
 

@@ -11,7 +11,7 @@ execute if score $game m_soup_running matches 1 if score $game m_soup_timer matc
 #timings
 
 
-execute if score $game m_soup_running matches 1 if score $game m_soup_timer matches 200 as @a[tag=m_player] run function m:soup/give_items
+execute if score $game m_soup_running matches 1 if score $game m_soup_timer matches 400 as @a[tag=m_player] run function m:soup/give_items
 execute if score $game m_soup_running matches 1 if score $game m_soup_timer matches 200 run tellraw @a[nbt={Dimension:"minecraft:minigames"}] ["",{"text":"[","bold":true,"color":"gold"},{"text":"!","bold":true,"color":"yellow"},{"text":"]","bold":true,"color":"gold"},{"text":" Game starts in 10 seconds!","bold":true,"color":"green"}]
 
 execute if score $game m_soup_running matches 1 if score $game m_soup_timer matches 300 run tellraw @a[nbt={Dimension:"minecraft:minigames"}] ["",{"text":"[","bold":true,"color":"gold"},{"text":"!","bold":true,"color":"yellow"},{"text":"]","bold":true,"color":"gold"},{"text":" Game starts in 5 seconds!","bold":true,"color":"green"}]
