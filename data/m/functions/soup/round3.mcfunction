@@ -10,4 +10,4 @@ effect clear @a[tag=m_player]
 effect give @a[tag=m_player] resistance 100000 255 true
 effect give @a[tag=m_player] jump_boost 100000 5 true
 
-scoreboard players set $game m_soup_timer 199
+scoreboard players set $game m_soup_timer 100

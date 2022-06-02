@@ -13,6 +13,7 @@ execute as @a[tag=m_player,tag=!m_soup_dead] run function m:soup/survival_points
 scoreboard players set $game m_soup_alive 0
 execute as @a[tag=m_player,tag=!m_soup_dead] run scoreboard players add $game m_soup_alive 1
 
-execute if score $game m_soup_alive matches 1 if score $game m_soup_round matches 1 run function m:soup/round2
-execute if score $game m_soup_alive matches 1 if score $game m_soup_round matches 2 run function m:soup/round3
+
 execute if score $game m_soup_alive matches 1 if score $game m_soup_round matches 3 run function m:soup/end_game
+execute if score $game m_soup_alive matches 1 if score $game m_soup_round matches 2 run function m:soup/round3
+execute if score $game m_soup_alive matches 1 if score $game m_soup_round matches 1 run function m:soup/round2
