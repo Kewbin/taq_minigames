@@ -43,7 +43,7 @@ execute if entity @e[tag=m_sky_chest8_t2,distance=..5,type=marker] unless entity
 
 
 execute if entity @e[tag=m_sky_chest9_t2,distance=..5,type=marker] unless entity @s[tag=m_sky_chest9_t2] as @s run function m:skyisland/opened_t2
-execute if entity @e[tag=m_sky_chest9_2,distance=..5,type=marker] unless entity @s[tag=m_sky_chest9_t2] unless entity @a[tag=m_sky_chest9_t2] as @s run function m:skyisland/first_open
+execute if entity @e[tag=m_sky_chest9_t2,distance=..5,type=marker] unless entity @s[tag=m_sky_chest9_t2] unless entity @a[tag=m_sky_chest9_t2] as @s run function m:skyisland/first_open
 execute if entity @e[tag=m_sky_chest9_t2,distance=..5,type=marker] unless entity @s[tag=m_sky_chest9_t2] as @s run tag @s add m_sky_chest9_t2
 
 
@@ -55,3 +55,5 @@ execute if entity @e[tag=m_sky_chest10_t2,distance=..5,type=marker] unless entit
 execute if entity @e[tag=m_sky_chest11_t4,distance=..5,type=marker] unless entity @s[tag=m_sky_chest11_t4] as @s run function m:skyisland/opened_t4
 execute if entity @e[tag=m_sky_chest11_t4,distance=..5,type=marker] unless entity @s[tag=m_sky_chest11_t4] unless entity @a[tag=m_sky_chest11_t4] as @s run function m:skyisland/first_open
 execute if entity @e[tag=m_sky_chest11_t4,distance=..5,type=marker] unless entity @s[tag=m_sky_chest11_t4] as @s run tag @s add m_sky_chest11_t4
+
+

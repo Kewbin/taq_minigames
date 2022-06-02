@@ -17,7 +17,7 @@ scoreboard players set $game m_soup_round 1
 scoreboard players operation $game m_soup_s_points *= $game m_p_multiplier
 scoreboard players operation $game m_soup_k_points *= $game m_p_multiplier
 
-
+spawnpoint @a[tag=m_player] 7129 151 6521
 execute positioned 7129 150 6521 run fill ~-1 ~-1 ~-1 ~1 ~2 ~1 barrier hollow
 
 spawnpoint @a[tag=m_player] 7129 151 6521
